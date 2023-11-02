@@ -35,14 +35,14 @@ ticketCost (цена билета) и задайте значения.
 Для решения этой задачи вам нужны будут следующие методы: Object.keys() или Object.entries()
 */
 
-// function objectToArr (obj) {
-//     const entries = Object.entries(obj)
-//     const result = entries.map(entry => [entry[0], entry[1]]);
-//     return result
+// const obj = {
+//   a: 1,
+//   b: 2
 // }
-// const inputObject = { a: 1, b: 2 };
-// const resultArray = objectToArr(inputObject);
-// console.log(resultArray);
+// function objectToArr (obj1) {
+//   return Object.entries(obj1)
+// }
+// console.log(objectToArr(obj))
 
 /*
 4) Дан объект. Нужно извлечь число 123 одной строкой
@@ -62,6 +62,7 @@ ticketCost (цена билета) и задайте значения.
 // function simpleObject(obj) {
 //     return typeof obj === 'object' && !Array.isArray(obj) && obj !== null;
 //   }
+
 
 /*
 6) Дан массив из имен например ['john', 'jane', 'kate', 'peter']. Вывести новый массив в котором каждая первая буква элемента будет с большой буквы.
